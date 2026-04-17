@@ -33,7 +33,7 @@ def parse_content() -> list[dict]:
         relative = str(md_file.relative_to(CONTENT_DIR))
         text = f"Page: {title}\nURL: {page_url}\n\n{body}"
 
-        docs.append({"name": relative, "text": text})
+        docs.append({"name": title, "text": text})
     return docs
 
 
