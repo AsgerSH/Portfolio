@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 import requests
 import frontmatter
 from pathlib import Path
@@ -85,6 +86,7 @@ def sync():
     for doc in docs:
         upload_doc(doc["name"], doc["text"])
         print(f"  uploaded: {doc['name']}")
+        time.sleep(2)
 
     print(f"\nDone. {len(docs)} documents synced to Dify.")
 
