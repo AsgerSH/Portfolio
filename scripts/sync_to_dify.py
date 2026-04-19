@@ -32,7 +32,7 @@ def parse_content() -> list[dict]:
 
         page_url = url_for(md_file)
         relative = str(md_file.relative_to(CONTENT_DIR))
-        text = f"Page: {title}\nURL: {page_url}\n\n{body}"
+        text = f"Page: {title}\nDirect link (use this exact URL, do not modify): {page_url}\n\n{body}"
 
         docs.append({"name": title, "text": text})
     return docs
@@ -80,6 +80,7 @@ def sync():
     for doc in existing:
         delete_doc(doc["id"])
         print(f"  deleted: {doc['name']}")
+        time.sleep(2)
 
     docs = parse_content()
     print(f"\nUploading {len(docs)} documents...")
