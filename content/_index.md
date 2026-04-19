@@ -4,7 +4,7 @@ layout: home
 ---
 
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 3rem 1rem 2rem;">
-  <img src="/profilbillede.jpeg" alt="Asger Høffner" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="profilbillede.jpeg" alt="Asger Høffner" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
   <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">Hej, jeg er Asger.</h1>
   <p style="font-size: 1.2rem; max-width: 560px; opacity: 0.8; margin-bottom: 2rem;">
     Datamatikerstuderende på 4. semester · Fullstack-udvikler · Fokus på backend og AI-integration<br/>Din virksomheds næste praktikant fra august 2026?
