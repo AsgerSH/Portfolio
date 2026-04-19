@@ -1,50 +1,26 @@
- ---
-title: "Phonyfy - Frontend Exam"
-toc: true
+---
+title: "Phonyfy – Spotify-klon"
 weight: 1
 ---
 
+Phonyfy er et eksamensprojekt fra 3. semester, der kombinerer en Java-backend og et React-frontend til en fungerende musik-streaming applikation — inspireret af Spotify.
 
-This project was developed as part of our **3rd semester frontend exam**, focusing on modern React development and fast development workflows.
+## Backend
 
-## GitHub
+Bygget i Java med Javalin som web-framework. Systemet håndterer autentificering via JWT med rollebaseret adgangskontrol (USER og ADMIN), og eksponerer et fuldt REST API til sange, kunstnere, albums og playlists.
 
-(Add your repo link here if you have one)
+Deployment er håndteret med Docker og Caddy som reverse proxy, og projektet har automatiseret CI/CD via GitHub Actions.
 
-## Project overview
+**Teknologier:** Java · Javalin · JPA · JWT · JUnit · RestAssured · Docker · Caddy · GitHub Actions
 
-This project is built using **React and Vite**, providing a fast and modern development environment with Hot Module Replacement (HMR) and optimized build performance.
+<a href="https://github.com/AsgerSH/AJ-phonyfy" target="_blank" rel="noreferrer">Se backend på GitHub</a>
 
-The goal of the project was to create a responsive and efficient frontend application using modern tools and best practices.
+## Frontend
 
-## Developed by
+React/Vite-frontend bygget som 3. semesters frontend-eksamen. Fokus på komponentbaseret arkitektur, modulær kodestruktur og moderne udviklingsworkflow med Hot Module Replacement.
 
-- Jonas Outzen  
-- Asger Høffner  
+**Teknologier:** React · Vite · JavaScript (ES6+) · ESLint
 
-## Key features
+<a href="https://github.com/AsgerSH/Phonyfy-frontend-SP3" target="_blank" rel="noreferrer">Se frontend på GitHub</a>
 
-- Fast development with Vite and HMR
-- Component-based architecture using React
-- Clean and structured project setup
-- ESLint configuration for code quality
-- Optimized build process
-
-## Technologies used
-
-- React
-- Vite
-- JavaScript (ES6+)
-- ESLint
-
-## What I worked on
-
-In this project, I focused on building reusable React components and structuring the application in a scalable way.  
-
-We worked with modern frontend workflows, including fast refresh, modular code organization, and maintaining clean and readable code through linting.
-
-The project gave practical experience with how modern frontend tools improve both developer experience and performance.
-
-## Notes
-
-The project is based on a minimal Vite + React setup, which can be extended further with tools like TypeScript and more advanced configurations depending on project requirements.
+**Udviklere:** Asger Storgaard Høffner · Jonas Outzen

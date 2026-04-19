@@ -1,19 +1,12 @@
 ---
 title: "Carport Beregner"
-weight: 1
+weight: 2
 ---
 
+Et fullstack-system til dynamisk konfiguration og materialeberegning af carporte. Brugeren indtaster dimensioner og systemet genererer en komplet stykliste (BOM) med præcise materialemængder.
 
-# Carport projekt
+Projektet dækker hele stacken fra database til brugerflade og demonstrerer, hvordan domænelogik kan indkapsles i et struktureret backend-system.
 
-Java applikation der beregner materialelister (BOM).
+**Teknologier:** Java · Javalin · Hibernate · SQL · HTML · CSS
 
-## Tech
-- Java
-- Javalin
-- Hibernate
-
-## Features
-- Beregning af spær
-- Tagplader
-- Stolper
+<a href="https://github.com/AsgerSH/Portfolio" target="_blank" rel="noreferrer">Se på GitHub</a>

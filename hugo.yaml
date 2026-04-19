@@ -18,28 +18,33 @@ markup:
 
 menu:
   main:
-    - name: Projekter
-      pageRef: /projects
-      weight: 1
-
-    - name: Docs
-      pageRef: /docs
-      weight: 2
-
     - name: Om mig
       pageRef: /about
+      weight: 1
+
+    - name: Projekter
+      pageRef: /projects
+      weight: 2
+
+    - name: AIDA-Portfolio
+      pageRef: /uger
       weight: 3
 
     - name: GitHub ↗
       url: "https://github.com/asgersh"
-      weight: 4
+      weight: 5
       params:
         icon: github
 
     - name: Search
-      weight: 5
+      weight: 6
       params:
         type: search
+
+    - name: Theme
+      weight: 7
+      params:
+        type: theme-toggle
 
 params:
   navbar:
@@ -52,7 +57,7 @@ params:
 
   theme:
     default: system
-    displayToggle: true
+    displayToggle: false
 
   editURL:
     enable: false
