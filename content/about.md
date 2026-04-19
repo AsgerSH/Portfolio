@@ -4,7 +4,7 @@ type: docs
 ---
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; margin-bottom: 2rem;">
-  <img src="/profilbillede.jpeg" alt="Asger Høffner" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(0,0,0,0.15); flex-shrink: 0;" />
+  <img src="../profilbillede.jpeg" alt="Asger Høffner" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(0,0,0,0.15); flex-shrink: 0;" />
   <div>
     <h2 style="margin-top: 0;">Asger Storgaard Høffner</h2>
     <p>Datamatikerstuderende · Fullstack-udvikler · Farum-baseret</p>
