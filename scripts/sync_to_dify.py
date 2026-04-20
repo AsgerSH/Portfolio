@@ -13,6 +13,24 @@ SITE_URL        = "https://asgersh.github.io/Portfolio"
 
 HEADERS = {"Authorization": f"Bearer {DIFY_API_KEY}"}
 
+REQUEST_DELAY   = 5   # seconds between normal requests
+MAX_RETRIES     = 6
+RETRY_BASE      = 30  # seconds; doubles each retry
+
+
+def request_with_retry(method: str, url: str, **kwargs):
+    for attempt in range(MAX_RETRIES):
+        r = requests.request(method, url, **kwargs)
+        if r.status_code in (429, 403) and attempt < MAX_RETRIES - 1:
+            wait = RETRY_BASE * (2 ** attempt)
+            print(f"  rate limited ({r.status_code}), waiting {wait}s before retry {attempt + 1}/{MAX_RETRIES - 1}...")
+            time.sleep(wait)
+            continue
+        r.raise_for_status()
+        return r
+    r.raise_for_status()
+    return r
+
 
 def url_for(path: Path) -> str:
     parts = path.with_suffix("").parts[1:]  # strip 'content'
@@ -39,21 +57,21 @@ def parse_content() -> list[dict]:
 
 
 def list_existing() -> list[dict]:
-    r = requests.get(
+    r = request_with_retry(
+        "GET",
         f"{BASE_URL}/datasets/{DIFY_DATASET_ID}/documents",
         headers=HEADERS,
         params={"limit": 100},
     )
-    r.raise_for_status()
     return r.json().get("data", [])
 
 
 def delete_doc(doc_id: str):
-    r = requests.delete(
+    request_with_retry(
+        "DELETE",
         f"{BASE_URL}/datasets/{DIFY_DATASET_ID}/documents/{doc_id}",
         headers=HEADERS,
     )
-    r.raise_for_status()
 
 
 def upload_doc(name: str, text: str):
@@ -63,12 +81,12 @@ def upload_doc(name: str, text: str):
         "indexing_technique": "high_quality",
         "process_rule": {"mode": "automatic"},
     }
-    r = requests.post(
+    r = request_with_retry(
+        "POST",
         f"{BASE_URL}/datasets/{DIFY_DATASET_ID}/document/create_by_text",
         headers=HEADERS,
         json=payload,
     )
-    r.raise_for_status()
     return r.json()
 
 
@@ -80,14 +98,14 @@ def sync():
     for doc in existing:
         delete_doc(doc["id"])
         print(f"  deleted: {doc['name']}")
-        time.sleep(2)
+        time.sleep(REQUEST_DELAY)
 
     docs = parse_content()
     print(f"\nUploading {len(docs)} documents...")
     for doc in docs:
         upload_doc(doc["name"], doc["text"])
         print(f"  uploaded: {doc['name']}")
-        time.sleep(2)
+        time.sleep(REQUEST_DELAY)
 
     print(f"\nDone. {len(docs)} documents synced to Dify.")
 
