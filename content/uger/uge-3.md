@@ -19,7 +19,18 @@ Slutresultatet er en React + Vite-app med fem quizmoduler om meditationens grund
 
 Hvert modul indeholder seks spørgsmål med multiple choice-svar. Quizindholdet er skrevet i Markdown og parses dynamisk, og brugerens fremskridt gemmes i `localStorage` så man kan fortsætte, hvor man slap.
 
-→ [Se quizzen live](https://asgersh.github.io/SceniusQuiz/)
+<div style="margin: 1.5rem 0;">
+  <iframe
+    src="https://asgersh.github.io/SceniusQuiz/"
+    width="100%"
+    height="480"
+    style="border: 1px solid #e2e8f0; border-radius: 12px; display: block;"
+    loading="lazy"
+  ></iframe>
+  <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #94a3b8; text-align: center;">
+    Interaktiv preview — eller åbn den på <a href="https://asgersh.github.io/SceniusQuiz/" target="_blank">asgersh.github.io/SceniusQuiz</a>
+  </p>
+</div>
 
 ## Fredag – 24. april
 
