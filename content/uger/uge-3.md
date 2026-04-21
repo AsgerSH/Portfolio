@@ -5,7 +5,7 @@ weight: 3
 
 ## Mandag – 20. april
 
-Mandagens undervisning handlede om at integrere AI-assistenter direkte i sin arbejdsproces som udvikler — konkret ved at koble Claude eller Codex ind i sin terminal eller IDE og lære at bruge dem effektivt som kodepartner.
+Mandagens undervisning handlede om at integrere AI-assistenter direkte i sin arbejdsproces som udvikler — konkret ved at koble Claude eller Cursor ind i sin terminal eller IDE og lære at bruge dem effektivt som kodepartner.
 
 For at lære det i praksis kom en rigtig kunde ind: ejeren af meditationswebsitet **Scenius**, som gerne ville have en quiz tilføjet til sit site. Vi fik projektet beskrevet i detaljer og fik at vide, hvad der skulle implementeres.
 
