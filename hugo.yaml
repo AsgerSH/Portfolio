@@ -1,5 +1,5 @@
 # Hugo configuration file
-baseURL: "http://localhost:1313/"
+baseURL: "https://storgaardcoding.dk/"
 languageCode: "da-dk"
 title: "Asger Høffner"
 
@@ -47,6 +47,10 @@ menu:
         type: theme-toggle
 
 params:
+  description: "Asger Storgaard Høffner – Datamatiker-studerende på AIDA. Her er mit portfolio."
+  images:
+    - /images/og-banner.png
+
   navbar:
     displayTitle: true
     displayLogo: false
