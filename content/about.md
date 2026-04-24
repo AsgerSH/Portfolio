@@ -9,7 +9,7 @@ type: docs
     <h2 style="margin-top: 0;">Asger Storgaard Høffner</h2>
     <p>Datamatikerstuderende · Fullstack-udvikler · Farum-baseret</p>
     <p>
-      Jeg er ikke den typiske IT-studerende — jeg har en BA i pædagogik, har arbejdet i esports på professionelt niveau og har leveret mad på cykel. Fælles for det hele er, at jeg trives i miljøer, hvor man skal tænke hurtigt, samarbejde og konstant lære nyt. Det er præcis det, softwareudvikling kræver.
+      Mød en datamatikerstuderende, der udover at brænde for programmering og teknologi, også har en BA i pædagogik, har arbejdet i esports på professionelt niveau og har leveret mad på cykel. Fælles for det hele er, at jeg trives i miljøer, hvor man skal tænke hurtigt, samarbejde og konstant lære nyt. Det er præcis det, softwareudvikling kræver.
     </p>
   </div>
 </div>
