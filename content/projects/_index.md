@@ -9,6 +9,7 @@ cascade:
 Et udvalg af projekter fra studiet og på egen hånd — primært backend-systemer i Java, men også frontend og dataanalyse.
 
 {{< cards >}}
+  {{< card link="/projects/ai-rapportvurderings-tool" title="AI Rapportvurderingsværktøj" icon="sparkles" subtitle="LLM-drevet rapportvurdering. Claude API, FastAPI, Render." >}}
   {{< card link="/projects/phonyfy" title="Phonyfy – Spotify-klon" icon="play" subtitle="Java backend + React frontend. JWT, Docker, CI/CD." >}}
   {{< card link="/projects/candidate-api" title="Candidate Matcher API" icon="users" subtitle="Rekrutteringsplatform med JWT, kompetenceberiging og analyser." >}}
   {{< card link="/projects/carport" title="Carport Beregner" icon="calculator" subtitle="Fullstack materialeberegner. Java, Javalin, Hibernate." >}}

@@ -34,4 +34,8 @@ Hvert modul indeholder seks spørgsmål med multiple choice-svar. Quizindholdet 
 
 ## Fredag – 24. april
 
-Indhold tilføjes fredag efter skoledagen. Vi lover det bliver mere spændende end denne sætning.
+Fredagen introducerede os til LLM API-integration — hvad det vil sige at bygge en applikation, der bruger en sprogmodel som motor frem for bare som chatpartner.
+
+Vi gik igennem de centrale byggesten: hvordan man laver API-kald til en LLM, hvordan man strukturerer sine prompts, hvordan man får struktureret output tilbage (så svaret kan bruges programmatisk), og hvordan asynkron programmering spiller ind, når man venter på svar fra en ekstern tjeneste.
+
+Som afslutning fik vi visualiseret det kommende projekt med **TuT** (Tech uden Tech) — en metode opfundet af Signe, som går ud på at beskrive en teknisk løsning uden at bruge teknisk sprog. Et godt værktøj til at tænke arkitektur og flow klart igennem, inden man skriver en linje kode.
