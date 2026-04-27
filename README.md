@@ -4,7 +4,7 @@ Personlig portfolio- og kursusside for **AI-driven Applications (AIDA)**-forløb
 
 Siden viser udvalgte projekter, en ugentlig logbog over AIDA-kurset samt information om mig som datamatikerstuderende.
 
-Bygget med [Hugo](https://gohugo.io/) og [Hextra](https://github.com/imfing/hextra)-temaet. Deployet via Netlify.
+Bygget med [Hugo](https://gohugo.io/) og [Hextra](https://github.com/imfing/hextra)-temaet. Deployet via Vercel på [storgaardcoding.dk](https://storgaardcoding.dk).
 
 ## Indhold
 
