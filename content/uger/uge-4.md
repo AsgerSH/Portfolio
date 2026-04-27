@@ -7,7 +7,7 @@ weight: 4
 
 Mandagens undervisning handlede om implementationen af vores LLM-drevne applikation. Vi gik i dybden med de konkrete valg man skal træffe: rubric-design, promptstruktur, backend-arkitektur og API-kald — og hvordan de hænger sammen i et sammenhængende system.
 
-Derefter gik vi i gang med at bygge. Mit projekt er et AI-drevet rapportvurderingsværktøj, der bruger Claude API til at evaluere studenterrapporter mod en defineret rubric. Backend er deployet på Render, og frontenden kører på GitHub Pages — begge dele sat op med Claude som pair-programmer i VS Code.
+Derefter gik vi i gang med at bygge. Mit projekt er et AI-drevet rapportvurderingsværktøj, der bruger Claude API til at evaluere studenterrapporter mod en defineret rubric. Backend er deployet på Render, og frontenden kører på GitHub Pages.
 
 <div style="margin: 1.5rem 0;">
   <iframe

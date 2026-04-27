@@ -16,6 +16,5 @@ Projektet er bygget som del af AIDA-forløbet og er det første eksempel på en 
 
 **Teknologier:** Python · FastAPI · Claude API · GitHub Pages · Render
 
-**Udviklingsworkflow:** Bygget med Claude som pair-programmer direkte i VS Code
 
 <a href="https://github.com/AsgerSH/AI-rapportvurderings-tool" target="_blank" rel="noreferrer">Se på GitHub</a> · <a href="https://asgersh.github.io/AI-rapportvurderings-tool/" target="_blank" rel="noreferrer">Åbn deployed version</a>
