@@ -13,4 +13,6 @@ Tankerne gik hurtigt hen på en simpel webapp, der letter oprettelsen af Trello-
 
 ## Fredag – 8. maj
 
-Indhold tilføjes når ugen nærmer sig. Vi glæder os allerede.
+Fredagen var sat af til fælles brainstorming. Hele klassen arbejdede i fællesskab på at udarbejde og kvalificere løsningsforslag til E.G. — hvad kunne man realistisk bygge, og hvilken retning giver mest mening at gå individuelt?
+
+Formålet var klart: at ruste os til mandagen i uge 6, hvor vi skal vælge projekt og udarbejde en egentlig projektbeskrivelse. En god dag til at tænke højt og få sparring, inden man sætter sig fast.
