@@ -14,5 +14,5 @@ Her dokumenteres arbejdet fra hver skoledag i kurset **AI-driven Applications (A
   {{< card link="/uger/uge-3" title="Uge 3" icon="calendar" subtitle="AI-assistenter som kodepartner & LLM API-integration" >}}
   {{< card link="/uger/uge-4" title="Uge 4" icon="calendar" subtitle="LLM-drevet applikation – fra rubric til deployment" >}}
   {{< card link="/uger/uge-5" title="Uge 5" icon="calendar" subtitle="Kundemøde, Spec Driven Development & projektforberedelse" >}}
-  {{< card link="/uger/uge-6" title="Uge 6" icon="calendar" subtitle="Kommer snart" >}}
+  {{< card link="/uger/uge-6" title="Uge 6" icon="calendar" subtitle="Projektarbejde – fra idé til implementering" >}}
 {{< /cards >}}
