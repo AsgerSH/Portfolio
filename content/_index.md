@@ -9,10 +9,35 @@ layout: home
   <p style="font-size: 1.2rem; max-width: 560px; opacity: 0.8; margin-bottom: 2rem;">
     Datamatikerstuderende på 5. semester<br/>Leder du efter en junior-udvikler med fokus på backend og AI?
   </p>
+  <style>
+    .hero-btn {
+      padding: 0.6rem 1.4rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      border: 2px solid #1C64F2;
+      color: #1C64F2;
+      transition: background 0.2s, color 0.2s, transform 0.15s;
+      display: inline-block;
+    }
+    .hero-btn:hover {
+      background: #1C64F2;
+      color: white !important;
+      transform: translateY(-2px);
+    }
+    .hero-btn-primary {
+      background: #1C64F2;
+      color: white !important;
+    }
+    .hero-btn-primary:hover {
+      background: #1a56db;
+      border-color: #1a56db;
+    }
+  </style>
   <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-    <a href="/uger" style="padding: 0.6rem 1.4rem; background: #1C64F2; color: white; border-radius: 8px; font-weight: 600; text-decoration: none;">Se mit AIDA-forløb</a>
-    <a href="/projects" style="padding: 0.6rem 1.4rem; border: 2px solid #1C64F2; color: #1C64F2; border-radius: 8px; font-weight: 600; text-decoration: none;">Projekter</a>
-    <a href="/about#kontakt" style="padding: 0.6rem 1.4rem; border: 2px solid gray; color: inherit; border-radius: 8px; font-weight: 600; text-decoration: none;">Kontakt</a>
+    <a href="/uger" class="hero-btn hero-btn-primary">Se mit AIDA-forløb</a>
+    <a href="/projects" class="hero-btn">Projekter</a>
+    <a href="/about#kontakt" class="hero-btn">Kontakt</a>
   </div>
 </div>
 
