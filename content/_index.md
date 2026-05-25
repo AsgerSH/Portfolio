@@ -12,6 +12,7 @@ layout: home
   <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
     <a href="/uger" style="padding: 0.6rem 1.4rem; background: #1C64F2; color: white; border-radius: 8px; font-weight: 600; text-decoration: none;">Se mit AIDA-forløb</a>
     <a href="/projects" style="padding: 0.6rem 1.4rem; border: 2px solid #1C64F2; color: #1C64F2; border-radius: 8px; font-weight: 600; text-decoration: none;">Projekter</a>
+    <a href="/about#kontakt" style="padding: 0.6rem 1.4rem; border: 2px solid gray; color: inherit; border-radius: 8px; font-weight: 600; text-decoration: none;">Kontakt</a>
   </div>
 </div>
 
