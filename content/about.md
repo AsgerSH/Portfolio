@@ -36,6 +36,9 @@ type: docs
 
 ## Erhvervserfaring
 
+**Dataanalytiker (praktik)** — Brøndby IF *(Aug 2026 – Jan 2027)*
+Praktik i dataanalyseafdelingen hos Brøndby IF.
+
 **Skolepædagog** — Enghavegård Skole, Mørkhøj *(Feb 2023 – Nov 2024)*
 Arbejdede med børn og unge i et struktureret team. Styrkede mine evner inden for kommunikation, konflikthåndtering og samarbejde — kompetencer, jeg aktivt bruger i softwareudvikling.
 
