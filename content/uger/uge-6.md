@@ -42,4 +42,4 @@ Mandagen gik med at udarbejde og færdiggøre projektbeskrivelsen for vores løs
 
 ## Fredag – 15. maj
 
-Sidst i rækken. Afslutningens fredag. *Coming soon* — og denne gang mener vi det.
+Fredagen var første rigtige byggdag. Vi samlede kravene, definerede hvad programmet præcis skal kunne, og udarbejdede teknologivalget for projektet. Derefter skrev vi en gennemgående og meget detaljeret prompt til brug i Claude Code — en slags master-instruktion der beskriver systemet, teknologierne, strukturen og forventningerne til kodeagenten. Et godt fundament at bygge videre på.
