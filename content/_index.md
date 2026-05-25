@@ -15,27 +15,20 @@ layout: home
       border-radius: 8px;
       font-weight: 600;
       text-decoration: none;
-      border: 2px solid #1C64F2;
-      color: #1C64F2;
-      transition: background 0.2s, color 0.2s, transform 0.15s;
+      border: 2px solid #9ca3af;
+      color: inherit;
+      transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
       display: inline-block;
     }
     .hero-btn:hover {
       background: #1C64F2;
       color: white !important;
+      border-color: #1C64F2;
       transform: translateY(-2px);
-    }
-    .hero-btn-primary {
-      background: #1C64F2;
-      color: white !important;
-    }
-    .hero-btn-primary:hover {
-      background: #1a56db;
-      border-color: #1a56db;
     }
   </style>
   <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-    <a href="/uger" class="hero-btn hero-btn-primary">Se mit AIDA-forløb</a>
+    <a href="/uger" class="hero-btn">Se mit AIDA-forløb</a>
     <a href="/projects" class="hero-btn">Projekter</a>
     <a href="/about#kontakt" class="hero-btn">Kontakt</a>
   </div>
