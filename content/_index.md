@@ -7,7 +7,7 @@ layout: home
   <img src="profilbillede.jpeg" alt="Asger Høffner" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
   <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">Hej, jeg er Asger.</h1>
   <p style="font-size: 1.2rem; max-width: 560px; opacity: 0.8; margin-bottom: 2rem;">
-    Datamatikerstuderende på 5. semester · Leder du efter en junior-udvikler med fokus på backend og AI?
+    Datamatikerstuderende på 5. semester<br/>Leder du efter en junior-udvikler med fokus på backend og AI?
   </p>
   <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
     <a href="/uger" style="padding: 0.6rem 1.4rem; background: #1C64F2; color: white; border-radius: 8px; font-weight: 600; text-decoration: none;">Se mit AIDA-forløb</a>
